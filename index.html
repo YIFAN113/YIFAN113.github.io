@@ -1,1 +1,80 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Submission</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .academic-title { 
+            text-align: center; 
+            margin-bottom: 20px;
+            color: violet;
+        }
+        .commercial-title { 
+            align-self: flex-start; 
+            margin-bottom: 20px;
+            color: violet; 
+            text-decoration: underline;
+        }
+        .info-photo-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+        .info {
+            align-self: flex-start;
+        }
+        .photo {
+            width: 150px;
+            height: 150px;
+            margin-left: auto;
+        }
+        .photo img { 
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        h1, h2, p { 
+            margin: 0;
+            padding: 4px 0;
+        }
+        .project-description {
+            max-width: 800px; 
+            margin-right: auto; 
+            text-align: justify; 
+        }
+        .project-description p {
+            text-indent: 2em; 
+        }
+    </style>
+</head>
+<body>
+    <div class="academic-title">
+        <h1>Students recipe app</h1>
+    </div>
+    <div class="commercial-title">
+        <h2>Students' spoon</h2>
+    </div>
+    <div  class="info-photo-container">
+    <div class="info">
+        <p><strong>Name:</strong> YIfan Gu</p>
+        <p><strong>Student Number:</strong> 20095253</p>
+    </div>
+    <div class="photo">
+        <img src="photo.jpg" alt="Your Name">
+    </div>
+</div>
+    <div class="project-description">
+        <h2>Project Description</h2>
+        <p>This project is an Android based student recipe app which aims to help international students who are in a foreign country which lack cooking skills and don't know about local ingredients and food prices. The student recipe app can recommend local recipes based on the user's area, and the user can also set a budget cap to find recipes, or if the user has ingredients on hand but isn't sure how to cook, the student recipe app can recommend recipes based on what the user already has. Users can also put satisfactory recipes into their favourites. If users are knowledgeable about cooking, they can also upload their own recipes to help other international students. By using the location, the app will show the supermarkets and grocery shops near the user on the map to make it easier for international students to buy ingredients when they are new to the country. The Student Recipes app will be developed using some free and open source api, and its interface design will be simple, practical and user-friendly.</p>
+</body>
+</html>
